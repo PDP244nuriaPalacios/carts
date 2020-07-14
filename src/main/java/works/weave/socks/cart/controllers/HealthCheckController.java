@@ -38,6 +38,7 @@ public class HealthCheckController {
        }
   
        healthChecks.add(app);
+       healthChecks.add(database);
   
        map.put("health", healthChecks);
        return map;
